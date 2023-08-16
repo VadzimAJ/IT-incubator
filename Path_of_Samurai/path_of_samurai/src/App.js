@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App = ()  => {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          ReactJS learning page <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -18,6 +18,14 @@ function App() {
           Learn React
         </a>
       </header>
+      <footer className="App-footer">
+        <ul>
+          <li className ="App-footer__li">CSS</li>
+          <li className ="App-footer__li">HTML</li>
+          <li className ="App-footer__li">JS</li>
+          <li className ="App-footer__li">REACT</li>
+        </ul>
+      </footer>
     </div>
   );
 }

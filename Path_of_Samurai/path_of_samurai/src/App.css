@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 84vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +24,16 @@
   color: white;
 }
 
+.App-header {
+  list-style-type: none;
+}
+.App-footer{
+  min-height: 14vh;
+  list-style-type: none;
+}
+.App-footer__li{
+  list-style-type: none;
+}
 .App-link {
   color: #61dafb;
 }
