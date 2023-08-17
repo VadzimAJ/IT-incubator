@@ -1,5 +1,9 @@
 import MainStar from "./MainStar";
-function MainRating (props) {
+
+type StarPropsType = {
+  value: number
+}
+ function MainRating (props : StarPropsType) {
   if (props.value === 0) {
     return (
       <div>
@@ -65,7 +69,7 @@ function MainRating (props) {
             );} 
             else {
               return (
-                <span className = "Main-rating-error">Rating Error</span>
+                <span className = "Main-rating-error">Rating Error<br/></span>
               )
             }
       };

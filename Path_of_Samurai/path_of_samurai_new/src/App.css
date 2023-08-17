@@ -46,6 +46,11 @@
   color: aqua;
 }
 
+.Page-title{
+  color:#61dafb;
+  margin-top: 0;
+  margin-bottom: .3em;
+}
 .App-footer{
   max-height: 15vh;
 }

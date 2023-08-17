@@ -1,18 +1,12 @@
 
-import MainRating from './components/main_components/MainRating'
 import MainLogo from './components/main_components/MainLogo';
+import Accordion from './components/main_components/Accordion';
+
 let Main = () => {
   return (
       <main className="App-main">
-          <MainLogo />
-          
-          <MainRating value = {0}/>
-          <MainRating value = {1}/>
-          <MainRating value = {2}/>
-          <MainRating value = {3}/>
-          <MainRating value = {4}/>
-          <MainRating value = {5}/>
-          <MainRating value = {6}/>
+          <MainLogo titleValue = {"Main Rating"}/>
+          <Accordion titleValue = {"Accordion Rating"}/>
       </main>
   );
 }
